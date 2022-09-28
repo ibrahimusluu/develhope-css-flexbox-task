@@ -1,0 +1,7 @@
+#sidebar {
+    width: 200px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    background-image: url(assets/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+}
