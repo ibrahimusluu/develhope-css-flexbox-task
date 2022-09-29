@@ -1,7 +1,54 @@
+html, body  {
+    margin: 0;
+}
+
 #sidebar {
     width: 200px;
-    min-height: 100vh;
+    height: 100vh;
     position: sticky;
     top: 0;
+    border: 1px solid transparent;
     background-image: url(assets/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    color: #2b2b2b;
+    padding-top: 80px;
+    font-size: 32px;
+}
+
+ul li a:hover {
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+
+li {
+    top: 0;
+}
+
+#image-mario {
+    width: 120px;
+}
+
+.material-icons.md-36 {
+    font-size: 80px;
+}
+
+#sidebar span {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#username {
+    font-size: larger;
+    font-weight: bolder;
 }
