@@ -1,5 +1,3 @@
-#username {
-    position: relative;
-    text-align: center;
-    bottom: 0;
-} 
+p {
+    font-weight: bold;
+}
